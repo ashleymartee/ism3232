@@ -21,4 +21,3 @@ class StockLookup:
         if product in self.stock:
             return self.stock[product]
         return None
-    
